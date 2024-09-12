@@ -85,6 +85,8 @@ void suprimer()
                        }
                     nbr_eleve--;
                     printf("l'eleve est suprimer.\n");
+                }else{
+                printf("l'eleve non trouver.\n");
                 }
 
     }
@@ -106,7 +108,8 @@ void afichage(){
 
             };
 }
-void calcul(){
+void Calcul()
+{
   struct informations etudiant[100];
   char departement_1[50];
   float somme_general=0;
@@ -122,6 +125,7 @@ void calcul(){
   m_eleve = m_eleve/N;
   printf("la moyenne general de departemment %s est :%.2f \n",departement_1,m_eleve);
 }
+
 void Statistiques(){
 int cotinue;
     do{
@@ -139,14 +143,16 @@ int cotinue;
     case 1:
     printf("le nombre d'etudients inscrits est : %d\n",nbr_eleve);
     break ;
-    case 2:
+    ///pas encore fait////
+   /* case 2:
+    printf("le nombre d'etudiant dans le premier departemment est :%d");
     break ;
     case 3:
     break ;
     case 4:
     break ;
     case 5:
-    break ;
+    break ;*/
     default:
     printf("entrer un autre choix valable");
     break;

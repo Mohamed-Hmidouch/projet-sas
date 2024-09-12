@@ -1,11 +1,11 @@
 # depslib dependency file v1.0
-1726068509 source:c:\users\youcode\desktop\dosiier de sas\sas projet\projet\main.c
+1726123613 source:c:\users\youcode\desktop\dosiier de sas\sas projet\projet\main.c
 	<stdio.h>
 	<stdlib.h>
 	"fuction.h"
 	<string.h>
 
-1726068734 c:\users\youcode\desktop\dosiier de sas\sas projet\projet\fuction.h
+1726124505 c:\users\youcode\desktop\dosiier de sas\sas projet\projet\fuction.h
 	<string.h>
 	"struct.h"
 

@@ -33,14 +33,17 @@ int main()
         afichage();
         break;
         case 5 :
-        calcul();
+        Calcul();
         break;
         case 6 :
-        Statistiques();
+        printf("pas encore fait");
+        //Statistiques();//
         break;
-       /* case 7:
+        case 7:
+        /*pas encore fait
         recherche();
         break;
+        case 8:
         Triage();
         break;*/
         default:

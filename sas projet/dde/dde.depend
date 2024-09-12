@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1726073898 source:c:\users\youcode\desktop\dosiier de sas\sas projet\dde\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
